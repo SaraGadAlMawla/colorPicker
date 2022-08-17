@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <title>Color picker :)</title>
+</head>
+<body>
+    <div class="flex">
+        <div class="container">
+            <header>
+                <div class="header-mod">
+                    <input class="color-selector" id="seed" type="color"/>
+                    <select class="menu" id = "mode-selection">
+                        <option> monochrome</option>
+                        <option> monochrome-dark</option>
+                        <option> monochrome-light</option>
+                        <option> analogic</option>
+                        <option> complement</option>
+                        <option> analogic-complement</option>
+                        <option> triad</option>
+                        <option> quad</option>
+                    </select>
+                    <button class="btn" id="getScheme">Get color scheme</button>
+                </div>
+            </header>
+            <main>
+                <div class="flex color-blocks">
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                    <div class="color"></div>
+                </div>
+            </main>
+            <footer>
+                <div class="flex color-hexes">
+                    <p class="color-hash" title="copy?" id="hash1">#F55A5A</p>
+                    <p class="color-hash" title="copy?" id="hash2">#2B283A</p>
+                    <p class="color-hash" title="copy?" id="hash3">#FBF3AB</p>
+                    <p class="color-hash" title="copy?" id="hash4">#AAD1B6</p>
+                    <p class="color-hash" title="copy?" id="hash5">#A626D3</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="action.js"></script>
+</body>
+</html>

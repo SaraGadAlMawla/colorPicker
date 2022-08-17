@@ -1,0 +1,126 @@
+html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body{
+    font-size: 18px;
+    height: 100%;
+    margin: 0;
+    background-color: #1c1c1c;
+    font-family: 'Inter', sans-serif;
+}
+
+.flex{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.container{
+    position: relative;
+    margin: 0 auto;
+    border: #2B283A solid 1px;
+    width: 60%;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    padding: 0.5rem 2rem;
+    box-shadow: 0px 5px 10px rgba(100, 100, 100, 0.712);
+}
+
+.header-mod{
+    display: flex;
+    height: 100%;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.color-selector{
+    height: 100%;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.menu{
+    text-transform: capitalize;
+    background: none;
+    border: lightgray solid 1px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    width: 65%;
+    cursor: pointer;
+}
+
+option{
+    cursor: pointer;
+}
+
+.btn{
+    background: none;
+    border: lightgray solid 2px;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus{
+    background-color: hotpink;
+    color: white;
+}
+
+main{
+    height: 70vh;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px -5px 10px rgba(100, 100, 100, 0.712);
+}
+
+.color, .color-hash{
+    height: 100%;
+    width: 20%;
+}
+
+.color-hash{
+    cursor: pointer;
+}
+
+.color-hash:hover,
+.color-hash:focus{
+    background-color: hotpink;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 90%;
+    }
+
+    *{
+        font-size: 12px;
+    }
+
+    main{
+        height: 50vh;
+    }
+    
+  }
