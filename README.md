@@ -1,6 +1,6 @@
 # Color Picker -An API UI to choose color themes
 
-This is a solution to the Solo Project provided by Scrimba. The design was provided by the platform, the solution is however entierly my own. This was an excercise to solidify my REST API basics as well as some CSS concepts.
+This is a solution to the Solo Project provided by Scrimba. The design was provided by the platform, the solution is however entirely my own. This was an exercise to solidify my REST API basics as well as some CSS concepts.
 
 ## Table of contents
 
@@ -19,7 +19,7 @@ Users should be able to:
 
 - Choose a color and a theme
 - Click "get color scheme" to get 5 colors according to the theme selected  
-from the drop down menue
+from the drop down menu
 - Copy the hex colors by clicking on them
 
 ### Screenshots
