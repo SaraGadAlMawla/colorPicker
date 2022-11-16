@@ -1,6 +1,7 @@
 # Color Picker -An API UI to choose color themes
 
-This is a solution to the Solo Project provided by Scrimba. The design was provided by the platform, the solution is however entirely my own. This was an exercise to solidify my REST API basics as well as some CSS concepts.
+This is a solution to the Solo Project provided by Scrimba. The design was provided by the platform, the solution is however entirely my own. This was an exercise to solidify my REST API basics as well as some CSS concepts.  
+Live at: https://saragadalmawla.github.io/colorPicker/
 
 ## Table of contents
 
